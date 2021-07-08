@@ -1,0 +1,99 @@
+/* .mainBackground {
+    
+    display: flex;
+}
+
+.semiCirclePic {
+    
+    display: flex;
+}
+
+.textBox {
+    width: auto;
+    height: auto;
+    padding: 1.736vmax;
+    position: absolute;
+}
+
+.text1 {
+    color: #6C7AF7;
+    font-size: 1.9vw;
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text2 {
+    color: #0A0F7C;
+    font-size: 3.1vw;
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text3 {
+    color: #767676;
+    font-size: 1.3vw;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttonBox {
+    width: auto;
+    height: auto;
+    padding-top: 1.736vmax;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftButton {
+    width: 6.736vmax;
+    height: 3vw;
+    border-radius: 10px;
+    background-color: #6C7AF7;
+    border: 1px solid #6C7AF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 1.597vw;
+    cursor: pointer;
+}
+
+.leftText {
+    font-family: Inter;
+    font-size: 1.18vw;
+    font-weight: 400;
+    color: white;
+}
+
+.rightButton {
+    width: 5.972vmax;
+    height: 3vw;
+    border-radius: 10px;
+    border: 1px solid #6C7AF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rightText {
+    font-family: Inter;
+    font-size: 1.18vw;
+    font-weight: 400;
+    color: #6C7AF7;
+}
+
+.trendingBox {
+    width: 12.152vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    font-family: 'Inter';
+    font-weight: 600;
+    margin-left: 3.125vw;
+} */

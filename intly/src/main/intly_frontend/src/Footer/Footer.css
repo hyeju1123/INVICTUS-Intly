@@ -1,0 +1,40 @@
+.footerContainer {
+    /* position: absolute;
+    left: 0;
+    bottom: 0; */
+    display: flex;
+    height: 17vw;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerTopBox {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.footerTopText {
+    font-family: 'Inter';
+    font-size: 1.11vw;
+    font-weight: 600;
+}
+
+.instagramIcon {
+    width: 3.33vw;
+    height: 3.33vw;
+    margin-left: 1.388vw;
+    margin-right: 1.388vw;
+}
+
+.footerBottomBox {
+    font-family: 'Inter';
+    font-size: 1.11vw;
+    font-weight: 600;
+    color: #767676;
+}

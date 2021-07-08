@@ -1,0 +1,158 @@
+.topBarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.5vw;
+}
+
+.searchIcon {
+    display: none;
+}
+
+.mainLogo {
+    width: 67.2px;
+    height: 30px;
+}
+
+.searchInput {
+    width: 27vw;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 1.5px #13171A;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.search {
+    position: relative;
+    right: 35px;
+    top: 5px;
+    width: 20px;
+}
+
+.rightBarContainer {
+    width: 25vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightButtonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    font-size: 1.11vw;
+    font-weight: 400;
+    font-family: 'Inter';
+    color: #13171A;
+}
+
+.signInText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    font-size: 1.11vw;
+    font-weight: 400;
+    font-family: 'Inter';
+    color: #13171A;
+}
+
+.signUpButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5vw;
+    height: 40px;
+    background-color: #6C7AF7;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.11vw;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+@media (max-width: 1100px) {
+    .rightBarContainer {
+        height: 30px;
+    }
+    .signUpButton {
+        height: 30px;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 770px) {
+    .rightBarContainer {
+        width: 28vw;
+        height: 24px;
+    }
+    .rightButtonText {
+        width: 8vw;
+    }
+    .signInText {
+        width: 8vw;
+    }
+    .signUpButton {
+        width: 9vw;
+        height: 24px;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 550px) {
+    .searchIcon {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .mainLogo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 23px;
+    }
+    .searchInput {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .rightButtonText {
+        display: none;
+    }
+    .rightBarContainer {
+        width: 23vw;
+        height: 24px;
+    }
+    .signInText {
+        width: 10vw;
+    }
+    .signUpButton {
+        width: 12vw;
+        height: 24px;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 350px) {
+    .rightBarContainer {
+        width: 28vw;
+        height: 24px;
+    }
+    .signInText {
+        width: 14vw;
+        font-weight: 300;
+    }
+    .signUpButton {
+        font-weight: 300;
+        width: 14vw;
+        height: 24px;
+        border-radius: 4px;
+    }
+}

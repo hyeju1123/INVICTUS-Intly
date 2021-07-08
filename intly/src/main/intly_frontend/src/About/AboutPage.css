@@ -1,4 +1,67 @@
-.backgroundImg1 {
-    background-image: url('../images/Landing_intro.png');
-    background-size: 100% 100%;
+.aboutBackground {
+    display: flex;
+    width: 100%;
+}
+
+.bubbleImage {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hugsContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hugs {
+    margin-top: 20vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+.background2 {
+    display: flex;
+    background-color: #6C7AF7;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+}
+
+.bottomTitle {
+    width: 52.013vw;
+    height: 5.5vh;
+    margin-top: 17vh;
+    text-align: center;
+    font-size: 2.22vw;
+    color: #EEA646;
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+}
+
+.bottomContent {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+.bottomContentText {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1.666vw;
+    font-weight: 500;
+    font-family: 'Inter';
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .background2 {
+        height: 80vh;
+    }
 }

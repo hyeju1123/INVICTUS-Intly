@@ -1,0 +1,71 @@
+.bottomBar {
+    height: 67.9px;
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.bottomBox {
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBottomText {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    color: #6C7AF7;
+}
+
+.yourCampusText {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FF833F;
+}
+
+.toggleText {
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #767676;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.toggleBox {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #767676;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 550px) {
+    .bottomBar {
+        height: 50px;
+    }
+    .bottomBox {
+        width: 300px;
+    }
+    .navBottomText {
+        font-size: 13px;
+    }
+    .yourCampusText {
+        font-size: 13px;
+    }
+    .toggleText {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

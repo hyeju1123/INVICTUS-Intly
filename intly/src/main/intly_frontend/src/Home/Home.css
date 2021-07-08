@@ -1,0 +1,97 @@
+.mainPageContainer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+.mainPageImage {
+    width: auto !important;
+    height: auto !important;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0%;
+}
+
+.mainTextBox {
+    /* width: auto;
+    height: auto; */
+    height: auto !important;
+    padding: 1.736vw;
+    position: relative;
+}
+
+.text1 {
+    color: #6C7AF7;
+    font-size: 1.9vw;
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text2 {
+    color: #0A0F7C;
+    font-size: 3.1vw;
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.text3 {
+    color: #767676;
+    font-size: 1.3vw;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttonBox {
+    width: auto;
+    height: auto;
+    padding-top: 1.736vmax;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainLeftButton {
+    width: 6.736vw;
+    height: 3vw;
+    border-radius: 10px;
+    background-color: #6C7AF7;
+    border: 1px solid #6C7AF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Inter;
+    font-size: 1.18vw;
+    font-weight: 400;
+    margin-right: 1.597vw;
+    cursor: pointer;
+}
+
+.mainRightButton {
+    width: 5.972vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: 1px solid #6C7AF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6C7AF7;
+    font-family: Inter;
+    font-size: 1.18vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (max-width: 350px) {
+
+    .text1 {
+        font-size: 1.1vw;
+        font-weight: 200;
+        font-family: 'IBM Plex Mono';
+    }
+}
